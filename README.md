@@ -1,16 +1,11 @@
-# news_app_for_olimp
+# newsAppForOlimp
+An application for viewing news with the ability to select the language, category and country
 
-A new Flutter project.
+## Как запустить
+Склонировать репозиторий, ввести команду flutter pub get, потом flutter run
 
-## Getting Started
+## Скачать на Андроид устройство
+По этому пути news_app_for_olimp\build\app\outputs\apk\debug\app-debug.apk скачать апк себе на устройство
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+PS Не успела дореализовать темную тему, поиск и локальное хранилище - для хранилища нужно объединить данные remote и local.
+Получаем remote, сохраняем в local. При следующем заходе если не можем получить remote, то отображаем local.
